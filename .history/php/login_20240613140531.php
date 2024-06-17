@@ -17,7 +17,7 @@
 
         if($qtd > 0) {
         echo <<<HTML
-        <script>window.location.href='../html/inicio.html'; </script>
+        <script>window.location.href='home.php'; </script>
         HTML;
         }
         else{
