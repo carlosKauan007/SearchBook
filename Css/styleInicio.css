@@ -5,28 +5,32 @@
   padding: 0;
 }
 body {
-  background-color: aliceblue;
+  background-color: #ffffff;
 }
 #logo {
-  margin-right: 100px;
+  margin-left: 10%;
+  margin-right: 60%;
+  font-size: 26px;
+  font-weight: 500;
 }
 #caixa {
-  justify-content: center;
   align-items: center;
-  background-color: grey;
   display: flex;
   gap: 30px;
-  padding: 13px;
+  height: 70px;
+  background-color: white;
+  box-shadow: 1px 1px 10px #b3b3b3;
 }
 #caixa a {
   font-style: none;
   text-decoration: none;
-  color: aliceblue;
+  color: black;
 }
 #caixa ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 30px;
+  font-size: 20px;
 }
 .conteudo {
   display: flex;
