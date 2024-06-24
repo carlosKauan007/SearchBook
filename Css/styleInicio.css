@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #141b1e;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.6)
+    ),
+    /* bottom, image */ url(../Imgs/back.jpeg);
+
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+#logo {
+  margin-left: 10%;
+  margin-right: 60%;
+  font-size: 26px;
+  font-weight: 500;
+}
+#logo-img{
+  display: block;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  left: 140px;
+}
+#caixa {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  height: 70px;
+}
+#caixa a {
+  font-style: none;
+  text-decoration: none;
+  color: white;
+}
+#caixa ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+}
+.conteudo {
+  display: flex;
+  height: 100%;
+
+}
+#card-esquerda {
+  width: 50%;
+  text-align: center;
+}
+#card-direita {
+  height: 100%;
+  width: 50%;
+  text-align: center;
+}
+#card-direita img {
+  margin-top: 200px;
+  height: 100%;
+  width: 50%;
+  text-align: center;
+}
